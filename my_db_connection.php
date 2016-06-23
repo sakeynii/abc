@@ -25,7 +25,7 @@ while($r = mysqli_fetch_assoc($result)){
 	echo $r["menu_name"]."<br>";
 	//echo $r["position"];
 	//echo $r["visible"];
-	
+	//you here
 }
 // Free results.
 mysqli_free_result($result);
